@@ -5,18 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site in Progress</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 100px;
-        }
-        h1 {
-            font-size: 24px;
-        }
-    </style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .header {
+      font-size: 28px;
+      color: #ff5252;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .icon {
+      font-size: 80px;
+      color: #ff9800;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .logo {
+      width: 250px;
+      height: 40px;
+      object-fit: cover; /* Crop the image */
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Site in Progress</h1>
-    <p>We're working on something awesome! Please check back later.</p>
+<img src="./images/Logo.png" alt="Logo" class="logo">
+<div class="header">Site in Progress</div>
+<div class="content">
+    <div class="icon">🚧</div>
+    <br><br>
+    <div class="message">We're working on something awesome! Please check back later.</div>
+</div>
 </body>
 </html>
